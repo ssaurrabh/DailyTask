@@ -28,3 +28,6 @@ We can create our own branch as well by using following command:
 To change the existing branch name to other:
 >> git checkout "existingbranchname"
 
+How to clone the branch content to the fileexplorer:
+>> git clone https://github.com/ssaurrabh/DailyTask.git
+
