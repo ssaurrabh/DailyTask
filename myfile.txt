@@ -16,3 +16,15 @@ To check the status of the repository we need to run the below mentioned command
 
 To push all the files to github we need to run the below mentioned command:
 >> git add .
+>> git commit -m "taskchapeter1"
+>> git push --set-upstream origin main
+
+We can create our own branch as well by using following command:
+>> git checkout -b "yourbranchname"
+>> git add .
+>> git commit -m "message"
+>> git push --set-upstream origin main
+
+To change the existing branch name to other:
+>> git checkout "existingbranchname"
+
