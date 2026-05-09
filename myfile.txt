@@ -1,1 +1,18 @@
-all related to github
+initializing github in cmd:
+>> install git first
+>> go into the folder which you want to deploy to github and from address bar type cmd
+>> type following commands:
+	>> git config --global user.name "ssaurrabh"  (ssaurrabh is the username I created at the time of signup in Github)
+	>> git config --global user.email "saurabhsharma@zoho.com"  (we need to configure the same email id that I used at the time of signup)
+	>> git config --global color.ui auto
+
+Mandatory Commands after above commands:
+>> git init
+>> git remote add origin "https://github.com/ssaurrabh/DailyTask.git" (Go to your github page and create one repository in repository section and then by going into code section you can copy the soure http code mentioned init)
+>> git pull origin main (main is the origin that is mentioned on the github repository page and its a pulling request that is made right now)
+
+To check the status of the repository we need to run the below mentioned command:
+>> git status
+
+To push all the files to github we need to run the below mentioned command:
+>> git add .
